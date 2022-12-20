@@ -26,7 +26,6 @@ html {
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: var(--family);
-  background-color: var(--light-gray);
 }
 
 /* logo */
@@ -53,6 +52,7 @@ html {
   position: relative;
   display: flex;
   align-items: center;
+  background-color: var(--light-gray);
 }
 
 .header__title {
@@ -105,7 +105,52 @@ html {
   top: 64px;
 }
 
+/* content */
+.content {
+  display: flex;
+  justify-content: center
+}
 
+/* description */
+.description {
+  margin-top: 100px;
+  width: 80%;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  font-weight: var(--weight-normal);
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: var(--blue)
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+  font-weight: var(--weight-normal);
+  font-size: 2.4rem;
+  line-height: 34px;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: var(--weight-bold);
+  margin-right: 10px;
+}
 
 
 
