@@ -29,7 +29,6 @@
   width: 228px;
   height: 32px;
   z-index: 2;
-
 }
 
 .logo_place_header {
@@ -397,7 +396,7 @@
   color: var(--white);
 }
 
-.footer__social-icon{
+.footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
