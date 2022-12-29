@@ -4,4 +4,5 @@
   padding: 0;
   display: flex;
   z-index: 1;
+  flex-direction: row-reverse;
 }

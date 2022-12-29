@@ -4,4 +4,9 @@
   font-weight: var(--weight-normal);
   text-decoration: none;
   color: var(--white);
+  transition: 1s;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
