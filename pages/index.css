@@ -2,9 +2,11 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
+/* logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 
+/* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -13,8 +15,10 @@
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/rotation/rotation.css);
 
+/* content */
 @import url(../blocks/content/content.css);
 
+/* descriptions */
 @import url(../blocks/description/description.css);
 
 @import url(../blocks/two-columns/two-columns.css);
@@ -23,6 +27,16 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/* techniques */
+@import url(../blocks/techniques/techniques.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+
+/* digits */
 @import url(../blocks/digits/digits.css);
 
 @import url(../blocks/section-title/section-title.css);
@@ -34,11 +48,13 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 
+/* feynman */
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 
+/* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
@@ -47,6 +63,7 @@
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
+/* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
